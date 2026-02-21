@@ -2,8 +2,9 @@
 vim.pack.add({"https://github.com/xero/miasma.nvim"})
 vim.pack.add({"https://github.com/savq/melange-nvim.git"})
 vim.pack.add({"https://github.com/ramojus/mellifluous.nvim.git"})
+vim.pack.add({"https://github.com/ellisonleao/gruvbox.nvim.git"})
 -- Current theme
-vim.cmd.colorscheme('miasma')
+vim.cmd.colorscheme('melange')
 -- This theme doesn't have built-in configuration option for transparency 
 vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
 vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })

@@ -23,7 +23,7 @@ treesitter.setup({
     ensure_installed = {
         "lua", "python", "sql", "r", "go", "json", "toml", 
         "bash", "csv", "tsv", "dockerfile", "rust", "html", 
-        "javascript", "typescript", "xml", "yaml"
+        "javascript", "typescript", "xml", "yaml", "c", "cpp"
     },
     
     ignore_install = {},

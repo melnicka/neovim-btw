@@ -11,10 +11,12 @@ vim.pack.add{
 vim.lsp.enable({
   'lua_ls',
   'pyright',
+  'ruff',
   'bashls',
   'sqlls',
   'r_language_server',
   'rust_analyzer',
+  'ccls'
 })
 
 -- Diagnostics
@@ -36,11 +38,11 @@ local function show_diag()
     vim.diagnostic.open_float(nil, { focus = false })
 end
 
-vim.api.nvim_create_autocmd("CursorHoldI", {
-  callback = function ()
-    show_diag()
-  end
-})
+--vim.api.nvim_create_autocmd("CursorHoldI", {
+-- callback = function ()
+--    show_diag()
+--  end
+--})
 
 vim.keymap.set("n", "<leader>h", show_diag)
 
@@ -121,5 +123,13 @@ vim.lsp.config('lua_ls', {
   },
 })
 
-
-
+-- Disabling pyright's annoying type checking
+vim.lsp.config("pyright", {
+  settings = {
+    python = {
+      analysis = {
+        typeCheckingMode = "off", -- The most important line. Stops the "float has no detach" BS.
+      }
+    }
+  }
+})
