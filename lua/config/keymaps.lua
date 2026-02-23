@@ -1,15 +1,6 @@
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
-local modes = {'n', 'i', 'v'}
-local keys = {'<Up>', '<Down>', '<Left>', '<Right>'}
-
-for _, mode in ipairs(modes) do
-    for _, key in ipairs(keys) do
-        vim.keymap.set(mode, key, '<nop>')
-    end
-end
-
 vim.keymap.set({"n", "v"}, "<leader>cd", "<Cmd>Ex<CR>", { desc = "File explorer" })
 
 -- Better behaviours
