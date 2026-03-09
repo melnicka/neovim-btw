@@ -1,3 +1,11 @@
+-- Fuzzy finder
+vim.pack.add({"https://github.com/nvim-mini/mini.nvim.git"})
+require "mini.pick".setup()
+
+vim.keymap.set('n', '<leader>ff', ":Pick files<CR>")
+vim.keymap.set('n', '<leader>fb', ":Pick buffers<CR>")
+vim.keymap.set('n', '<leader>fg', ":Pick grep<CR>")
+
 -- Autopairs 
 vim.pack.add({"https://github.com/windwp/nvim-autopairs.git"})
 require("nvim-autopairs").setup()

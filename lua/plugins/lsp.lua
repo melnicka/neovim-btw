@@ -38,12 +38,6 @@ local function show_diag()
     vim.diagnostic.open_float(nil, { focus = false })
 end
 
---vim.api.nvim_create_autocmd("CursorHoldI", {
--- callback = function ()
---    show_diag()
---  end
---})
-
 vim.keymap.set("n", "<leader>h", show_diag)
 
 -- Diagnostics color scheme

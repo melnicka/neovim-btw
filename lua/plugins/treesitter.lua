@@ -4,7 +4,7 @@ vim.pack.add({"https://github.com/windwp/nvim-ts-autotag.git"})
 
 -- Define the configuration logic
 require("nvim-treesitter.install").prefer_git = true
-local treesitter = require('nvim-treesitter.configs')
+local treesitter = require('nvim-treesitter')
 
 treesitter.setup({
     -- Automatically install parsers for missing languages

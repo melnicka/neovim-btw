@@ -16,25 +16,13 @@
       "rev": "6cd7280adead7f586db6fccbd15d2cac7e2188b9",
       "src": "https://github.com/rafamadriz/friendly-snippets"
     },
-    "gruvbox.nvim": {
-      "rev": "a472496e1a4465a2dd574389dcf6cdb29af9bf1b",
-      "src": "https://github.com/ellisonleao/gruvbox.nvim.git"
-    },
     "lualine.nvim": {
       "rev": "47f91c416daef12db467145e16bed5bbfe00add8",
       "src": "https://github.com/nvim-lualine/lualine.nvim.git"
     },
-    "melange-nvim": {
-      "rev": "ce42f6b629beeaa00591ba73a77d3eeac4cf28ce",
-      "src": "https://github.com/savq/melange-nvim.git"
-    },
-    "mellifluous.nvim": {
-      "rev": "9948359e1536b4171615f7280e61e17620e3fd45",
-      "src": "https://github.com/ramojus/mellifluous.nvim.git"
-    },
-    "miasma.nvim": {
-      "rev": "627f2e1cac91de0d1d4dd7472b506a30f41b2b7d",
-      "src": "https://github.com/xero/miasma.nvim"
+    "mini.nvim": {
+      "rev": "cad365c212fb1e332cb93fa8f72697125799d00a",
+      "src": "https://github.com/nvim-mini/mini.nvim.git"
     },
     "neogen": {
       "rev": "23e7e9f883d01289ebd90e98025acc860ea26366",
@@ -64,17 +52,9 @@
       "rev": "746ffbb17975ebd6c40142362eee1b0249969c5c",
       "src": "https://github.com/nvim-tree/nvim-web-devicons.git"
     },
-    "plenary.nvim": {
-      "rev": "b9fd5226c2f76c951fc8ed5923d85e4de065e509",
-      "src": "https://github.com/nvim-lua/plenary.nvim.git"
-    },
-    "telescope.nvim": {
-      "rev": "ad7d9580338354ccc136e5b8f0aa4f880434dcdc",
-      "src": "https://github.com/nvim-telescope/telescope.nvim.git"
-    },
-    "which-key.nvim": {
-      "rev": "3aab2147e74890957785941f0c1ad87d0a44c15a",
-      "src": "https://github.com/folke/which-key.nvim.git"
+    "yoda.nvim": {
+      "rev": "266dd6e4f3ff500ebf6b58e7618b73ffde79f1c1",
+      "src": "https://github.com/kuri-sun/yoda.nvim.git"
     }
   }
 }
